@@ -1,0 +1,151 @@
+body
+{
+    background-image: url(/images/Background_Night.svg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.row
+{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#basket
+{
+    position: absolute;
+    top: 649px;
+    left: 0;
+    width: 80px;
+    z-index: 9;
+}
+#chicken1Div , #chicken2Div , #chicken3Div
+{
+   
+    width: 15%;
+    position:relative;
+}
+#hen
+{
+    width: 100%;
+    z-index: 9;
+}
+.egg 
+{
+position: absolute;
+top: 75px;
+left:60px;
+transition: all 2s;
+
+}
+p {
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+    margin-left: 15px;
+    margin-bottom: 4px !important;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.divScore
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+color: rgba(255,255,255,0.8);
+font-size: 25px;
+font-weight: bold;
+}
+
+.eggbroken
+{
+position: absolute;
+top: 543px;
+left:60px;
+width: 60%;
+display: none;
+}
+.notransition
+{
+    transition: none !important;
+}
+#gameDetails
+{display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+#gameOver , #gameStart
+{
+    width: 70%;
+    background-color: #4C4660;
+    text-align: center;
+    border: 4px solid #FF4571;
+    border-radius: 70px;
+    margin: auto;
+    z-index: 150;
+    height: 44%;
+    display:none ;
+    position: relative;
+
+}
+#gameStart
+{
+    display: block;
+    height: 25%;
+}
+#gameOver h1 , #gameStart h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -0.1em;
+    word-spacing: 10px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+#gameOver h2 {
+    color: #FFE345;
+    font-weight: 900;
+    font-size: 130px;
+    letter-spacing: -6px;
+    line-height: 110px;
+}
+.container.gameStart_end {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    display: flex;
+}
+#play, #playAgain {
+    background-color: #FF4571;
+    border: 4px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    width: 200px;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: -3px;
+    text-decoration: none;
+    position: absolute;
+    right: 35%;
+    bottom: -25PX;
+    
+    cursor: pointer;
+}
+#playAgain
+{
+    width: 240px;
+    right: 33%;
+}
+
+div#scoreOnBasket {
+    position: absolute;
+    top: 645px;
+    z-index: 999;
+    color: #FFE345;
+    font-size: 30px;
+    font-weight: 900;
+}

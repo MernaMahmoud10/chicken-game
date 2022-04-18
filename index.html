@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+</head>
+
+<body>
+    <div id="gameDetails">
+        <div class="divScore">
+            <h3>Score : </h3>
+            <p id='score'></p>
+        </div>
+        <div class="divScore">
+            <h3>Life : </h3>
+            <p id='life'></p>
+        </div>
+    </div>
+    <div id="scoreOnBasket">0</div>
+    <img id="basket" src="images/Basket.svg">
+    <div class="container chickenEggsDiv">
+        <div class="row ">
+            <div id="chicken1Div">
+                <img id='hen' class="animate__animated animate__pulse animate__infinite" src="images/Happy_hen.svg">
+                <img class='egg egg1' src="images/Happy_Egg.svg">
+                <img class="eggbroken" src="images/Broken_Egg.svg">
+            </div>
+            <div id="chicken2Div">
+                <img id='hen' class="animate__animated animate__pulse animate__infinite" src="images/Happy_hen.svg">
+                <img class='egg' src="images/Happy_Egg.svg">
+                <img class="eggbroken" src="images/Broken_Egg.svg">
+            </div>
+            <div id="chicken3Div">
+                <img id='hen' class="animate__animated animate__pulse animate__infinite" src="images/Happy_hen.svg">
+                <img class='egg' src="images/Happy_Egg.svg">
+                <img class="eggbroken" src="images/Broken_Egg.svg">
+            </div>
+        </div>
+
+    </div>
+    <div class="container gameStart_end">
+        <div class="" id="gameOver">
+            <h1>HAPPY EGG</h1>
+            <h2 class="scoreInGameOver py-3">0</h2>
+            <button id="playAgain">play again </button>
+        </div>
+        <div class="" id="gameStart">
+            <h1>HAPPY EGG</h1>
+            <button id="play">play</button>
+        </div>
+    </div>
+
+
+    <audio id="startGame" src="/audio/happy chicken.mp3"></audio>
+    <audio id="gameOverSound" src="/audio/game over.mp3"></audio>
+
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="js/first.js"></script>
+
+</body>
+
+</html>
